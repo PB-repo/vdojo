@@ -1,6 +1,8 @@
 #lxdm {
 	background-image: url("background.jpg");
-	// background-repeat: round;
+	background-size: 100% 100%;
+	background-position: center; 
+	background-repeat: no-repeat;
 }
 
 #bottom_pane {
@@ -8,21 +10,21 @@
 }
 
 #time {
-	font-family: Sans Bold;
+	font-family: "Sans Bold";
 	font-size: 14px;
 	font-weight: bold;
 	color: #ffffff;
 }
 
 #prompt {
-        font-family: Sans Bold;
+        font-family: "Sans Bold";
         font-size: 18px;
         font-weight: bold;
 	color: #ffffff;
 }
 
 #bottom_pane GtkLabel {
-        font-family: Sans Bold;
+        font-family: "Sans Bold";
         font-size: 14px;
         font-weight: bold;
 	color: #9E9D9B;
